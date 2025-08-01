@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-# barber-shop
-
-=======
-
 <h2 align='center'>:earth_americas: BarberShop :earth_americas:</h2>
 
 <p align="center">
@@ -15,4 +9,61 @@
 <img alt="prisma-logo" src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white" />
 <img alt="jest-logo" src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff" />
 </p>
->>>>>>> Aleydon
+
+---
+
+## 🚀 Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+---
+
+## 🐳 Docker & 🐘 PostgreSQL
+
+This project uses Docker to run a PostgreSQL database.
+
+### Commands
+
+- **Start the database:**
+
+  ```bash
+  npm run docker:start
+  ```
+
+## ‎‍💻 Prisma ORM
+
+This project uses Prisma as an ORM to interact with the database.
+
+### Commands
+
+- **Run migrations:**
+
+  ```bash
+  npm run prisma:migrate
+  ```
+
+- **Seed the database:**
+
+  ```bash
+  npm run seed
+  ```
+
+- **Open Prisma Studio:**
+
+  ```bash
+  npm run prisma:studio
+  ```
+
+---

@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'BarberShop',
+  title: 'Barber-Shop',
   description: 'BarberShop SaaS'
 };
 
