@@ -13,7 +13,6 @@
     "seed": "tsx prisma/seed.ts",
     "lint": "eslint ./src --fix --ext .tsx,.ts",
     "docker:start": "docker compose -f docker-compose.yml up --build -d",
-    "docker:stop": "docker compose -f docker-compose.dev.yml down",
     "prisma:migrate": "prisma migrate dev --name init",
     "prisma:generate": "prisma generate",
     "prisma:studio": "prisma studio",

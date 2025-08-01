@@ -42,14 +42,6 @@ This project uses Docker to run a PostgreSQL database.
   npm run docker:start
   ```
 
-- **Stop the database:**
-
-  ```bash
-  npm run docker:stop
-  ```
-
----
-
 ## ‎‍💻 Prisma ORM
 
 This project uses Prisma as an ORM to interact with the database.
@@ -75,22 +67,3 @@ This project uses Prisma as an ORM to interact with the database.
   ```
 
 ---
-
-## 📜 Available Scripts
-
-- `dev`: Runs the development server.
-- `build`: Creates a production build.
-- `start`: Starts the production server.
-- `seed`: Seeds the database with initial data.
-- `lint`: Lints the codebase.
-- `docker:start`: Starts the PostgreSQL container.
-- `docker:stop`: Stops the PostgreSQL container.
-- `prisma:migrate`: Runs database migrations.
-- `prisma:generate`: Generates the Prisma client.
-- `prisma:studio`: Opens Prisma Studio.
-- `test`: Runs tests.
-- `test:watch`: Runs tests in watch mode.
-- `prepare`: Installs Husky hooks.
-- `commit`: Commits changes using commitizen.
-- `storybook`: Starts Storybook.
-- `build-storybook`: Builds Storybook.
